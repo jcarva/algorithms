@@ -12,7 +12,7 @@ def Insertion(input_vector):
 		"Index to help us to search the correct position to select key"
 		i = j-1
 
-		while (i>=0 and picked < sample[i]):
+		while (i >= 0 and picked < sample[i]):
 			sample[i+1] = sample[i]
 			i -= 1
 
