@@ -3,6 +3,7 @@ from random import randint
 from algorithms.insertion import InsertionSort
 from algorithms.selection import SelectionSort
 from algorithms.merge import MergeSort
+from algorithms.quick import QuickSort
 
 "Default input size to the sorting algorithms"
 sample_size = 10
@@ -22,3 +23,4 @@ for i in xrange(sample_size):
 InsertionSort(list(sample))
 SelectionSort(list(sample))
 MergeSort(list(sample))
+QuickSort(list(sample))
