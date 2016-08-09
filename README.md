@@ -7,7 +7,7 @@ Contact me on [Linkedin](https://www.linkedin.com/in/jaelson-carvalho-4b84a3a2?t
 
 ## Introduction
 
-**Sorting Algorithms** - First homework to Analysis Algorithm course.
+**Sorting Algorithms** - First homework to Algorithms Analysis course.
 
 ---
 
