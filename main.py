@@ -1,7 +1,8 @@
 import sys
 from random import randint
-from algorithms.insertion import Insertion
-from algorithms.selection import Selection
+from algorithms.insertion import InsertionSort
+from algorithms.selection import SelectionSort
+from algorithms.merge import MergeSort
 
 "Default input size to the sorting algorithms"
 sample_size = 10
@@ -18,5 +19,6 @@ for i in xrange(sample_size):
 	sample.append(randint(0,1000))
 
 "Call Algorithms"
-Insertion(sample)
-Selection(sample)
+InsertionSort(list(sample))
+SelectionSort(list(sample))
+MergeSort(list(sample))
