@@ -1,8 +1,11 @@
 def Insertion(input_vector):
 	print("\t### Insertion Sort ###")
 
-	"Copy the input because verything is a reference in Python"
+	"Copy the input because everything is a reference in Python"
 	sample = list(input_vector);
+
+	"Show received input, without algorithm changes"
+	print(sample)
 
 	for j in xrange(1, len(sample)):
 
@@ -12,7 +15,8 @@ def Insertion(input_vector):
 		"Index to help us to search the correct position to select key"
 		i = j-1
 
-		while (i>=0 and picked < sample[i]):
+		"Move positions of values higher than selected key"
+		while (i >= 0 and picked < sample[i]):
 			sample[i+1] = sample[i]
 			i -= 1
 
