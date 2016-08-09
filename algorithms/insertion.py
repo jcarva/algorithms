@@ -1,8 +1,5 @@
-def Insertion(input_vector):
+def InsertionSort(sample):
 	print("\t### Insertion Sort ###")
-
-	"Copy the input because everything is a reference in Python"
-	sample = list(input_vector);
 
 	"Show received input, without algorithm changes"
 	print(sample)
