@@ -4,6 +4,7 @@ from algorithms.insertion import InsertionSort
 from algorithms.selection import SelectionSort
 from algorithms.merge import MergeSort
 from algorithms.quick import QuickSort
+from algorithms.heap import HeapSort
 
 "Default input size to the sorting algorithms"
 sample_size = 10
@@ -24,3 +25,4 @@ MergeSort(list(sample))
 InsertionSort(list(sample))
 SelectionSort(list(sample))
 QuickSort(list(sample))
+HeapSort(list(sample))
