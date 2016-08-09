@@ -20,7 +20,7 @@ for i in xrange(sample_size):
 	sample.append(randint(0,1000))
 
 "Call Algorithms"
+MergeSort(list(sample))
 InsertionSort(list(sample))
 SelectionSort(list(sample))
-MergeSort(list(sample))
 QuickSort(list(sample))

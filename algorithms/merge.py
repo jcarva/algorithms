@@ -21,6 +21,7 @@ def MergeSort(sample):
 		"Merge both sides"
 		Merge(sample, left_side, right_side)
 
+	"Show each change"
 	print(sample)
 
 
