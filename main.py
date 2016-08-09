@@ -1,6 +1,7 @@
 import sys
 from random import randint
 from algorithms.insertion import Insertion
+from algorithms.selection import Selection
 
 "Default input size to the sorting algorithms"
 sample_size = 10
@@ -18,3 +19,4 @@ for i in xrange(sample_size):
 
 "Call Algorithms"
 Insertion(sample)
+Selection(sample)
