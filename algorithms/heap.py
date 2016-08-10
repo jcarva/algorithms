@@ -1,5 +1,5 @@
 def HeapSort(sample):
-    print("\t### Merge Sort ###")
+    print("\t### Heap Sort ###")
 
     "Show received input, without algorithm changes"
     print(sample)
