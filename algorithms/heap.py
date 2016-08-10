@@ -1,8 +1,4 @@
 def HeapSort(sample):
-    print("\t### Heap Sort ###")
-
-    "Show received input, without algorithm changes"
-    print(sample)
 
     final = len(sample)
 
@@ -14,7 +10,6 @@ def HeapSort(sample):
     for i in range(final-1, 0, -1): 
         Switch(sample, i, 0)   
         Heapify(sample, i, 0)
-
 
 def Heapify(sample, final, i):
 
@@ -33,9 +28,6 @@ def Heapify(sample, final, i):
     if max != i:   
         Switch(sample, i, max)   
         Heapify(sample, final, max)
-
-    "Show each change"
-    print(sample)
 
 def Switch(sample, i, j):
     aux = sample[i]

@@ -1,8 +1,4 @@
 def MergeSort(sample):
-	print("\t### Merge Sort ###")
-
-	"Show received input, without algorithm changes"
-	print(sample)
 
 	"Check the sample size and verify if we are in a leaf"
 	if (len(sample) > 1):
@@ -20,12 +16,6 @@ def MergeSort(sample):
 
 		"Merge both sides"
 		Merge(sample, left_side, right_side)
-
-	"Show each change"
-	print(sample)
-
-
-	print("\n")
 
 def Merge(sample, left_side, right_side):
 

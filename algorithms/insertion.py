@@ -1,8 +1,4 @@
 def InsertionSort(sample):
-	print("\t### Insertion Sort ###")
-
-	"Show received input, without algorithm changes"
-	print(sample)
 
 	for j in xrange(1, len(sample)):
 
@@ -19,8 +15,3 @@ def InsertionSort(sample):
 
 		"Put the current key in its correct position"
 		sample[i+1] = picked
-
-		"Show each change"
-		print(sample)
-
-	print("\n")

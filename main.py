@@ -6,6 +6,7 @@ from algorithms.merge import MergeSort
 from algorithms.quick import QuickSort
 from algorithms.heap import HeapSort
 
+"Sorting Algorithms ID to call by args on the execution"
 sorters={1: SelectionSort, 2: InsertionSort, 3: MergeSort, 4: QuickSort, 5: HeapSort}
 
 "Default input size to the sorting algorithms"
@@ -20,13 +21,11 @@ for i in xrange(sample_size):
 
 "Check argument to choose a sorting algorithm"
 if (len(sys.argv) == 2) and (sorters.has_key(int(sys.argv[1]))):
-	sorters[int(sys.argv[1])](list(sample))
+	"Call Algorithm"
+	sorters[int(sys.argv[1])](sample)
+
+	"Set input with random numbers"
+	for index in sample:
+		print(index)
 else:
 	print("Please, select a valid sorting algorith!!!")
-
-# "Call Algorithms"
-# MergeSort(list(sample))
-# InsertionSort(list(sample))
-# SelectionSort(list(sample))
-# QuickSort(list(sample))
-# HeapSort(list(sample))

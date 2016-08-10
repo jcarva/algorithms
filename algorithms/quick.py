@@ -1,15 +1,10 @@
 def QuickSort(sample):
 	"This QuickSort function just is a interface to maintain the pattern to pass only a sample as argument."
 
-	print("\t### Quick Sort ###")
-
 	"Call the quicksort logic"
 	Quick(sample,0,len(sample)-1)
 
 def Quick(sample, init, final):
-
-	"Show received input, without algorithm changes in the first execution and after display each change"
-	print(sample)
 
 	"Set left index"
 	i = init
