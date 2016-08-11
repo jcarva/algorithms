@@ -1,3 +1,9 @@
+"""
+	Author: Jaelson Carvalho
+	Python Version: 2.7.6
+	Usage: python2.7 main.py 'sorter key'
+"""
+
 import sys
 from random import randint
 from algorithms.insertion import InsertionSort
