@@ -15,4 +15,4 @@ def SelectionSort(sample):
 		tmp = sample[min]
 		sample[min] = sample[j]
 		sample[j] = tmp
-		
+				

@@ -38,4 +38,5 @@ def Quick(sample, init, final):
 
 	"Call the recursion to right side"
 	if (i < final):
-		Quick(sample, i, final)		
+		Quick(sample, i, final)
+		

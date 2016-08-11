@@ -33,3 +33,4 @@ def Switch(sample, i, j):
     aux = sample[i]
     sample[i] = sample[j]
     sample[j] = aux
+    
