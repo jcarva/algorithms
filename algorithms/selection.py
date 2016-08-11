@@ -1,8 +1,4 @@
 def SelectionSort(sample):
-	print("\t### Selection Sort ###")
-
-	"Show received input, without algorithm changes"
-	print(sample)
 
 	for j in xrange(0, len(sample)):
 
@@ -19,8 +15,4 @@ def SelectionSort(sample):
 		tmp = sample[min]
 		sample[min] = sample[j]
 		sample[j] = tmp
-
-		"Show each change"
-		print(sample)
-
-	print("\n")
+				
