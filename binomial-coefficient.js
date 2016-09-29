@@ -1,6 +1,6 @@
 /*
 	Author: Jaelson Carvalho
-	Nodejs v6.2.2
+	Node.js v6.2.2
 	Usage: node binomial-coefficient.js
 
 	Inspired by:
