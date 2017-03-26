@@ -11,6 +11,7 @@ The activities can be checked clicking on the below links.
 1. [Sorting Algorithms](https://github.com/jcarva/algorithms/tree/master/sorting_algorithms)
 2. [Dynamic Programming](https://github.com/jcarva/algorithms/tree/master/dynamic_programming)
 3. [Dynamic and Greedy Algorithms](https://github.com/fernandobrito/algorithms_design_assignments/tree/master/dynamic_greedy_lib)
+4. [Metaheuristics Algorithms](https://github.com/fernandobrito/algorithms_design_assignments/tree/master/dynamic_greedy_lib/metaheuristics)
 
 ---
 
